@@ -1,0 +1,17 @@
+{
+  "name": "next-i18n-undefined-langs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "9.1.4",
+    "next-i18next": "^2.1.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  }
+}
