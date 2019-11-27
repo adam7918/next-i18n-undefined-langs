@@ -4,11 +4,7 @@ import PropTypes from "prop-types";
 import { withTranslation } from "../i18n";
 
 const Error = ({ statusCode, t }) => (
-  <p>
-    {statusCode
-      ? t("error-with-status", { statusCode })
-      : t("error-without-status")}
-  </p>
+  <p>{statusCode ? "ERROR: " + { statusCode } : "ERROR"}</p>
 );
 
 Error.getInitialProps = async ({ res, err }) => {
